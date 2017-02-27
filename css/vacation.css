@@ -1,0 +1,48 @@
+.vacation{
+	padding-bottom:.1rem;
+	border-bottom:.01rem solid #ccc;
+}
+.viewSpot{
+	width:100%;
+	
+}
+.viewName{
+	max-width: 6.4rem;
+	margin:0 auto;
+	color:#666;
+
+}
+.viewName figure{
+	margin-top:.15rem;
+	position:relative;
+}
+.viewName figure:after{content:'.';visibility: hidden;height: 0px;clear: both;display: block;}
+.viewName figure img{
+	width:50%;
+	float:left;
+}
+.viewSpot .viewName figcaption{
+	width:48%;
+	float:right;
+}
+.viewSpot .viewName figcaption p.title{
+	border:none;
+	font-size:.16rem;
+	padding:0;
+}
+.viewSpot .viewName figcaption p.title_main{
+	overflow: hidden;
+	margin-top:.1rem;
+	font-size:.12rem;
+	height:.32rem;
+	display: -webkit-box;
+	-webkit-line-clamp:2;
+	-webkit-box-orient:vertical;
+}
+.viewSpot .viewName figcaption p.price{
+	color:#f60;
+	font-size:.18rem;
+	font-weight:700;
+	position:absolute;
+	bottom:0;
+}

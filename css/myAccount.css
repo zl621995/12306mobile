@@ -1,0 +1,52 @@
+.mine{
+	width:100%;
+	height:.52rem;
+	text-align:center;
+	line-height:.52rem;
+	margin-top:.07rem;
+	max-width:6.4rem;
+	font-size:.16rem;
+	font-weight:bold;
+	color:white;
+	background:url(../images/bg_tlisthd.png) repeat-x;
+}
+.account{
+	width:100%;
+	height:.92rem;
+	margin-top:.2rem;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	background: white;
+}
+.account a{
+	display:block;
+	height:.3rem;
+	line-height:.3rem;
+	width:3.04rem;
+	font-size:.14rem;
+	margin:0 auto;
+	color:#666;
+	text-indent:.2rem;
+	
+}
+.account a.accountMain{
+	border-bottom:1px solid #eee;
+}
+.account span{
+	float:right;
+	font-family:'宋体';
+	color:#ccc;
+	font-weight:bold;
+	margin-right:.2rem;
+}
+.exit{
+	width:85%;
+	height:.3rem;
+	line-height:.3rem;
+	text-align:center;
+	font-size:.16rem;
+	color:white;
+	background: #9d0808;
+	margin:1.6rem auto 0;
+	border-radius:.07rem;
+}

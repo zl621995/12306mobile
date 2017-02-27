@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/commo.css">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+		<title>12306首页</title>
+	</head>
+	<body>
+		<h1 class="hide">12306首页</h1>
+		<header>
+			<img src="images/logo.png" alt="12306首页">
+			<nav>
+				<ul>
+					<li class="active"><a href="index.html">客运首页</a></li>
+					<li><a href="bookingTickets.html">车票预订</a></li>
+					<li><a href="vacationMaket.html">旅游超市</a></li>
+					<li><a href="myAccount.html">个人中心</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!-- 车票查询 -->
+		<section>
+			<div class="tickets ticketsSearch">
+				<h2>车票查询</h2>
+				<form action="###">
+					<div class="travelType">						
+						<label><input type="radio" checked="checked">单程</label>
+						<label><input type="radio">往返</label>						
+					</div>
+					<div class="travel travelStation">
+						<label>出发站 <input type="text" placeholder="上海"></label><br/>
+						<label>目的地 <input type="text" placeholder="北京"></label>
+					</div>
+					<div class="travel travelDate">
+						<label>出发日 <input type="Date" placeholder=""></label><br/>
+						<label>返程日 <input type="Date" placeholder=""></label>
+					</div>
+					<div class="custormType">
+						<label><input type="radio" name="custormType" checked="checked">普通</label>
+						<label class="right"><input type="radio" name="custormType">学生</label>
+					</div>
+					<p class="searchButton"><a href="###">查 询</a></p>
+				</form>
+			</div>
+		</section>
+		<!-- 出行向导 -->
+		<section>
+			<div class="tickets travelGuide">
+				<h2>出行向导</h2>
+				<a href="###">
+					<figure>
+						<img src="images/icons/stationFind.png" alt="车站查询">
+						<figcaption>车站查询</figcaption>
+					</figure>
+				</a>
+				<a href="###">
+					<figure>
+						<img src="images/icons/transferFind.png" alt="中转查询">
+						<figcaption>中转查询</figcaption>
+					</figure>
+				</a>
+				<a href="###">
+					<figure>
+						<img src="images/icons/priceFind.png" alt="票价查询">
+						<figcaption>票价查询</figcaption>
+					</figure>
+				</a>
+				<a href="###">
+					<figure>
+						<img src="images/icons/laterFind.png" alt="晚点查询">
+						<figcaption>晚点查询</figcaption>
+					</figure>
+				</a>
+				<a href="###">
+					<figure>
+						<img src="images/icons/proxyFind.png" alt="代售站点">
+						<figcaption>代售站点</figcaption>
+					</figure>
+				</a>
+			</div>
+		</section>
+	</body>
+</html>

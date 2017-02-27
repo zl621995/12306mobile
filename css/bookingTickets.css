@@ -1,0 +1,156 @@
+
+.destination{
+	position:relative;
+	width:99%;
+	color:white;
+	background:url(../images/bg_tlisthd.png) repeat-x;
+	height:.53rem;
+	line-height:.53rem;
+	margin:.1rem auto 0;
+	text-align:center;
+	font-size:.16rem;
+	font-weight:bold;
+}
+.destination i{
+	position:absolute;
+	left: .4rem;
+	font-family:'宋体';
+	font-size:.18rem;
+	font-weight:bold;
+}
+.toDate{
+	width:99%;
+	height:.35rem;
+	margin:0 auto;
+	line-height:.35rem;
+	background: #478dcb;
+	text-align:center;
+	border-top:1px solid #eee;
+}
+.toDate a{
+	color:white;
+}
+.toDate span{
+	float:left;
+	width:20%;
+	font-size:.12rem;
+
+}
+.toDate p{
+	float:left;
+	width:59%;
+	background-color:rgba(0,0,0,.2);
+	color:white;
+}
+ul{
+	margin-bottom:.5rem;
+}
+li.station{
+	width:99%;
+	height:.56rem;
+	position:relative;
+	background: white;
+	margin:0 auto;
+	border-bottom:1px solid #ccc;
+}
+li.station span{
+	font-size:.12rem;
+}
+li.station .startStation{
+	font-size:.15rem;
+}
+li.station .startStation abbr{
+	font-size:.15rem;
+	position:absolute;
+	top:.02rem;
+	left:.05rem;
+}
+li.station .startStation i{
+	position:absolute;
+	left:.6rem;
+	line-height:.19rem;
+	color:#333;
+	font-size:.12rem;
+	background: url(../images/icon.png) no-repeat 0 -546px;
+	text-indent:.15rem;
+}
+li.station .startStation img{
+	width:70px;
+	height:20px;
+	display:block;
+	position:absolute;
+	top:.05rem;
+	left:1.3rem;
+}
+li.station .startStation .time{
+	position:absolute;
+	top:.25rem;
+	left:1.3rem;
+	color:#333;
+}
+.station .endStation i{
+	position:absolute;
+	top:.05rem;
+	left:2rem;
+	font-size:.12rem;
+	background: url(../images/icon.png) no-repeat 0 -496px;
+	text-indent:.15rem;
+	color:#333;
+}
+.station a{
+	width:.5rem;
+	height:.3rem;
+	float:right;
+	background: #0080ff;
+	border-radius:4px;
+	color:white;
+	line-height: .3rem;
+	text-align:center;
+	margin:-.1rem 0.05rem 0 0;
+}
+.station p{
+	position:absolute;
+	bottom:.0rem;
+	left:.05rem;
+}
+.station p span{
+	margin-right:.2rem;
+}
+.station p span i{
+	color:green;
+}
+.fliter p{
+	position:fixed;
+	bottom:0;
+	width:99%;
+	height:.5rem;
+	line-height: .5rem;
+	text-align:center;
+	font-size:.16rem;
+	margin:0 auto;
+	background: rgba(0,0,0,0.8);
+}
+
+.fliter p span{
+	display:block;
+	width:24%;
+	float:left;
+	color:white;
+	position:relative;
+}
+.fliter p span.active{
+	color:#0080ff;
+}
+.fliter p span i{
+	float:right;
+	display:block;
+	width:0.11rem;
+	height:0.06rem;
+	position:absolute;
+	bottom:.18rem;
+	right:.1rem;
+	background: url(../images/navbar.png) no-repeat -8px -32px;
+}
+.fliter p span.active i{
+	background: url(../images/navbar.png) no-repeat -8px -8px;
+}
